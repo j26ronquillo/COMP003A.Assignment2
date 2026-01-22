@@ -13,13 +13,24 @@
             Console.Write("Enter number 2: ");
             string value2 = Console.ReadLine();
 
-            Console.WriteLine("\n");
+            double a = double.Parse(value1);
+            double b = double.Parse(value2);
 
-            Console.WriteLine("Name Formats\n------------");
+            Console.WriteLine("\nName Formats\n------------");
             Console.Write("Using concatenation: ");
-            Console.Write(name1 + ", " + name2);
+            Console.WriteLine(name2 + ", " + name1);
+            Console.WriteLine($"Using interpolation: {name2}, {name1}\n");
+            Console.WriteLine("Results\n-------");
+            Console.WriteLine($"Sum: {a + b}");
+            Console.WriteLine($"Average: {(a + b) / 2.0}");
+            Console.WriteLine($"Difference: {a - b}");
+            Console.WriteLine($"Product: {a * b}");
+            Console.WriteLine($"Quotient: {a / b}");
 
-            
+            Console.WriteLine("\nComparisons\n-----------");
+
+
+
         }
     }
 }
