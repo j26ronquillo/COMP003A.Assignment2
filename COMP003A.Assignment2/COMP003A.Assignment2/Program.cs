@@ -9,12 +9,12 @@
             Console.Write("Enter second name: ");
             string name2 = Console.ReadLine();
             Console.Write("Enter number 1: ");
-            string value1 = Console.ReadLine();
+            string number1 = Console.ReadLine();
             Console.Write("Enter number 2: ");
-            string value2 = Console.ReadLine();
+            string number2 = Console.ReadLine();
 
-            double a = double.Parse(value1);
-            double b = double.Parse(value2);
+            double a = double.Parse(number1);
+            double b = double.Parse(number2);
 
             Console.WriteLine("\nName Formats\n------------");
             Console.Write("Using concatenation: ");
