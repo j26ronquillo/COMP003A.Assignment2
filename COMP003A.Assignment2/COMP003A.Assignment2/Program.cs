@@ -28,9 +28,12 @@
             Console.WriteLine($"Quotient: {a / b}");
 
             Console.WriteLine("\nComparisons\n-----------");
-
-
-
-        }
+            bool aGreaterThanb = a > b;
+            bool aEqualb = a == b;
+            bool aNotEqualb = a != b;
+            Console.WriteLine($"{a} > {b} " + aGreaterThanb);
+			Console.WriteLine($"{a} == {b} " + aEqualb);
+			Console.WriteLine($"{a} != {b} " + aNotEqualb);
+		}
     }
 }
